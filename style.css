@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   height: 150vh;
-  font-family:'Open Sans';
+  font-family: "Open Sans";
   margin: 0px;
 }
 
@@ -100,6 +100,10 @@
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
 .header-center > img {
   height: 250px;
   width: 400px;
@@ -167,12 +171,12 @@
 
 .sign-up-banner {
   flex: 2;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.banner{
+.banner {
   background-color: #3882f6;
   width: 50vw;
   height: 130px;
@@ -184,14 +188,14 @@
   color: #f9faf8;
 }
 
-.banner > .sign-up-button{
+.banner > .sign-up-button {
   border: 2px solid #e5e7eb;
 }
 
 .footer {
   flex: 0.5 1 0;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  color:#e5e7eb;
+  color: #e5e7eb;
 }
