@@ -74,6 +74,7 @@
   width: 430px;
   align-items: flex-start;
   flex: 1;
+  gap: 10px;
 }
 
 .hero > .main-title {
@@ -96,6 +97,7 @@
   color: #f9faf8;
   font-weight: bold;
   margin-top: 10px;
+  text-decoration: none;
 }
 
 .header-center > img {
